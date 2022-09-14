@@ -95,8 +95,17 @@ new Runtime().module(define, name => {
     </section>
 <div id="observablehq-chart8-d781daf5"></div>
 
+<div id="observablehq-political_regime_chart-d781daf5"></div>
 <div id="observablehq-viewof-year-d781daf5"></div>
+<div id="observablehq-yearW-d781daf5"></div>
+<div id="observablehq-politicalLegend-d781daf5"></div>
 
+<div id="observablehq-chart6-d781daf5"></div>
+<div id="observablehq-viewof-states-d781daf5"></div>
+<div id="observablehq-chart4-d781daf5"></div>
+<div id="observablehq-viewof-state-d781daf5"></div>
+<div id="observablehq-political_water_chart-d781daf5"></div>
+<div id="observablehq-waterLegend-d781daf5"></div>
 	
 
 
