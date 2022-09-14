@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Datavisualization</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="module">
+        import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+        import define from "https://api.observablehq.com/d/8c4b0f7c41a3dd8f.js?v=3";
+        new Runtime().module(define, name => {
+            if (name === "political_regime_chart") return new Inspector(document.querySelector("#observablehq-political_regime_chart-dd665ab7"));
+            if (name === "viewof year") return new Inspector(document.querySelector("#observablehq-viewof-year-dd665ab7"));
+            if (name === "political_water_chart") return new Inspector(document.querySelector("#observablehq-political_water_chart-dd665ab7"));
+            if (name === "chart3") return new Inspector(document.querySelector("#observablehq-chart3-dd665ab7"));
+            if (name === "chart4") return new Inspector(document.querySelector("#observablehq-chart4-dd665ab7"));
+            if (name === "chart5") return new Inspector(document.querySelector("#observablehq-chart5-dd665ab7"));
+            if (name === "chart6") return new Inspector(document.querySelector("#observablehq-chart6-dd665ab7"));
+            if (name === "chart8") return new Inspector(document.querySelector("#observablehq-chart8-dd665ab7"));
+            if (name === "viewof state") return new Inspector(document.querySelector("#observablehq-viewof-state-dd665ab7"));
+            if (name === "viewof states") return new Inspector(document.querySelector("#observablehq-viewof-states-dd665ab7"));
+            return ["regime", "viewof political_regime_table", "updatedStats", "updatedRegime", "regimeWaterFilt", "waterFilt"].includes(name);
+        });
+    </script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Container for flexboxes */
+        section {
+            display: -webkit-flex;
+            display: flex;
+        }
+
+        /* Style the navigation menu */
+        nav {
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        /* Style the content */
+        article {
+            -webkit-flex: 3;
+            -ms-flex: 3;
+            flex: 3;
+            background-color: #f1f1f1;
+            padding: 10px;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+        @media (max-width: 600px) {
+            section {
+                -webkit-flex-direction: column;
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h2>Is water a weapon for Dictators?</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <h1>Compare world political regime with access to water</h1>
+                <p>Some text here</p>
+                <p>With the following slider you can change the year of observation, automatically all chart with change
+                    rappresented data.</p>
+                <div id="observablehq-viewof-year-dd665ab7"></div>
+                <div id="observablehq-viewof-state-dd665ab7"></div>
+                <div id="observablehq-viewof-states-dd665ab7"></div>
+            </ul>
+            <ul>
+            </ul>
+        </nav>
+        <article>
+            <div style="display: flex;">
+                <div style="flex-basis:50%">
+                    <div id="observablehq-political_regime_chart-dd665ab7"></div>
+                </div>
+                <div style="flex-basis:50%">
+                    <div id="observablehq-political_water_chart-dd665ab7"></div>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex-basis:50%">
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex-basis:50%">
+                    <div id="observablehq-chart3-dd665ab7"></div>
+                </div>
+                <div style="flex-basis:50%">
+                    <div id="observablehq-chart4-dd665ab7"></div>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex-basis:50%">
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex-basis:50%">
+                    <div id="observablehq-chart5-dd665ab7"></div>
+                </div>
+                <div style="flex-basis:50%">
+                    <div id="observablehq-chart6-dd665ab7"></div>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="flex-basis:100%">
+                    <div id="observablehq-chart8-dd665ab7"></div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <p>Università di Torino - Dipartimento di Informatica. Analisi e visualizzazione delle reti complesse 2021/2022,
+            Gianmarco Sciortino, Alessandro Lucco</p>
+    </footer>
+
+</body>
+
+</html>
