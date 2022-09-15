@@ -35,7 +35,7 @@ new Runtime().module(define, name => {
 
 <body>
     <header>
-        <h2>Is water a weapon for Dictators? | Map of political regimes</h2>
+        <h2>Is water a weapon for Dictators? | Access to drinking water</h2>
     </header>
 
     <section>
@@ -53,14 +53,11 @@ new Runtime().module(define, name => {
         </nav>
         <article>
  
- 	             <div style="flex-basis:100%">
-					<div id="observablehq-politicalLegend-d781daf5"></div>
-                    <div id="observablehq-political_regime_chart-d781daf5" ></div>
+ 
+                <div style="flex-basis:100%">
+					<div id="observablehq-waterLegend-d781daf5"></div>
+                    <div id="observablehq-political_water_chart-d781daf5"></div>
                 </div>
-				<div>
-				<h2>Explanation of the different types of regimes</h2>
-					<p>The variable identifies the political regime of a country using the Regimes of the World classification by political scientists Anna L&uuml;hrmann, Marcus Tannenberg and Staffan Lindberg. It distinguishes between closed autocracies (score 0), electoral autocracies (score 1), electoral democracies (score 2), and liberal democracies (score 3).<br /><br />In <strong>closed autocracies</strong>, citizens do not have the right to either choose the chief executive of the government or the legislature through multi-party elections.<br /><br />In <strong>electoral autocracies</strong>, citizens have the right to choose the chief executive and the legislature through multi-party elections; but they lack some freedoms, such as the freedoms of association or expression, that make the elections meaningful, free, and fair.<br /><br />In <strong>electoral democracies</strong>, citizens have the right to participate in meaningful, free and fair, and multi-party elections.<br /><br />In <strong>liberal democracies</strong>, citizens have further individual and minority rights, are equal before the law, and the actions of the executive are constrained by the legislative and the courts.</p>
-				</div>
 
 
 			<div>
@@ -79,10 +76,7 @@ new Runtime().module(define, name => {
                 </div>
 
 
-                <div  style="visibility: hidden" tyle="flex-basis:100%">
-					<div id="observablehq-waterLegend-d781daf5"></div>
-                    <div id="observablehq-political_water_chart-d781daf5"></div>
-                </div>
+
 
 	
 

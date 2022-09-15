@@ -35,7 +35,7 @@ new Runtime().module(define, name => {
 
 <body>
     <header>
-        <h2>Is water a weapon for Dictators?</h2>
+        <h2>Is water a weapon for dictators?</h2>
     </header>
 
     <section>
@@ -51,28 +51,32 @@ new Runtime().module(define, name => {
             </ul>
         </nav>
         <article>
+			<h2> View on the world map </h2> 
             <div style="display: flex;">
 				<div>
 					<p></p>
 				</div>
                 <div style="flex-basis:50%">
 					<div id="observablehq-politicalLegend-d781daf5"></div>
-                    <div id="observablehq-political_regime_chart-d781daf5"></div>
+                    <div id="observablehq-political_regime_chart-d781daf5" onclick="window.location='./state_map.html';"></div>
                 </div>
                 <div style="flex-basis:50%">
 					<div id="observablehq-waterLegend-d781daf5"></div>
-                    <div id="observablehq-political_water_chart-d781daf5"></div>
+                    <div id="observablehq-political_water_chart-d781daf5" onclick="window.location='./water_map.html';"></div>
                 </div>
             </div>
-            <div style="display: flex;">
+            <div style="display: flex; margin-top:20px;">
                 <div style="flex-basis:100%">
-				<h2> View of single state </h2> 
+				<h2 > View of single state </h2> 
 				<p>Select a single state to see access to water and services relative to the political regime</p>
                 </div>
             </div>
             <div style="display: flex;">
                 <div style="flex-basis:20%">
-                    <div id="observablehq-viewof-state-d781daf5"></div>
+                    <div id="observablehq-viewof-state-d781daf5">
+					 <p>The red line represents the average among all states relative to access to basic drinking water</P>
+					</div>
+					
                 </div>
                 <div style="flex-basis:80%">
                     <div id="observablehq-chart4-d781daf5"></div>
@@ -90,6 +94,12 @@ new Runtime().module(define, name => {
                 </div>
                 <div style="flex-basis:80%">
                     <div id="observablehq-chart6-d781daf5"></div>
+                </div>
+            </div>
+	       <div style="display: flex;">
+                <div style="flex-basis:100%">
+				<h2> Overview: access to safely managed drinking water</h2> 
+				<p>Safely managed drinking water is water from an improved water source which is located on premises, available when needed and free from contamination.<p>
                 </div>
             </div>
             <div style="display: flex;">
@@ -131,9 +141,6 @@ new Runtime().module(define, name => {
 </body>
 
 </html>
-
-
-
 
 
 

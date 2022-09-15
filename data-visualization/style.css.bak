@@ -57,6 +57,8 @@
             padding: 10px;
             text-align: center;
             color: white;
+			border-radius: 5px;
+			margin: 5px;
         }
 
         /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
@@ -64,8 +66,7 @@
             section {
                 -webkit-flex-direction: column;
                 flex-direction: column;
-				border-radius: 5px;
-				margin: 5px;
+
             }
         }
     </style>

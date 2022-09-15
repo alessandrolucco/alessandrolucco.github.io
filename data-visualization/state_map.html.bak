@@ -5,45 +5,96 @@
     <title>Datavisualization</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="module">
-        import { Runtime, Inspector } from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-        import define from "https://api.observablehq.com/d/8c4b0f7c41a3dd8f.js?v=3";
-        new Runtime().module(define, name => {
-            if (name === "political_regime_chart") return new Inspector(document.querySelector("#observablehq-political_regime_chart-dd665ab7"));
-            if (name === "viewof state") return new Inspector(document.querySelector("#observablehq-viewof-state-dd665ab7"));
-            if (name === "viewof states") return new Inspector(document.querySelector("#observablehq-viewof-states-dd665ab7"));
-            return ["regime", "viewof political_regime_table", "updatedStats", "updatedRegime", "regimeWaterFilt", "waterFilt"].includes(name);
-        });
-    </script>
-	
 	<link rel="stylesheet" href="style.css">
+	
+
+<script type="module">
+import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+import define from "https://api.observablehq.com/@alessandrolucco/is-water-a-weapon-for-dictators-work-in-progress.js?v=3";
+new Runtime().module(define, name => {
+  if (name === "political_regime_chart") return new Inspector(document.querySelector("#observablehq-political_regime_chart-d781daf5"));
+  if (name === "viewof year") return new Inspector(document.querySelector("#observablehq-viewof-year-d781daf5"));
+  if (name === "yearW") return new Inspector(document.querySelector("#observablehq-yearW-d781daf5"));
+  if (name === "politicalLegend") return new Inspector(document.querySelector("#observablehq-politicalLegend-d781daf5"));
+  if (name === "chart8") return new Inspector(document.querySelector("#observablehq-chart8-d781daf5"));
+  if (name === "chart6") return new Inspector(document.querySelector("#observablehq-chart6-d781daf5"));
+  if (name === "viewof states") return new Inspector(document.querySelector("#observablehq-viewof-states-d781daf5"));
+  if (name === "chart4") return new Inspector(document.querySelector("#observablehq-chart4-d781daf5"));
+  if (name === "viewof state") return new Inspector(document.querySelector("#observablehq-viewof-state-d781daf5"));
+  if (name === "political_water_chart") return new Inspector(document.querySelector("#observablehq-political_water_chart-d781daf5"));
+  if (name === "waterLegend") return new Inspector(document.querySelector("#observablehq-waterLegend-d781daf5"));
+  return ["regime","viewof political_regime_table","updatedStats","updatedRegime","regimeWaterFilt","waterFilt","chart5","chart3"].includes(name);
+});
+</script>
+
+
 </head>
+
+
+
 
 <body>
     <header>
-        <h2>Is water a weapon for Dictators?</h2>
+        <h2>Is water a weapon for Dictators? | Political regime map</h2>
     </header>
 
     <section>
         <nav>
             <ul>
                 <h1>Compare world political regime with access to water</h1>
-                <p>Some text here</p>
-                <p>With the following slider you can change the year of observation, automatically all chart with change
-                    rappresented data.</p>
-                <div id="observablehq-viewof-year-dd665ab7"></div>
+                <p>With the following slider you can change the year of observation of both map </p>
+                <div id="observablehq-yearW-d781daf5"></div>
+				<p>If you are only interested in the evolution of regimes you can go even further back</p>
+				<div style="margin-bottom:20px;" id="observablehq-viewof-year-d781daf5"></div>
+				<button onclick="window.location='./index.html';" type="button">Back</button>
             </ul>
             <ul>
             </ul>
         </nav>
         <article>
-            <div style="display: flex;">
-                <div >
-                    <div id="observablehq-political_regime_chart-dd665ab7"></div>
+ 
+ 	             <div style="flex-basis:100%">
+					<div id="observablehq-politicalLegend-d781daf5"></div>
+                    <div id="observablehq-political_regime_chart-d781daf5" ></div>
                 </div>
-            </div>
+				<div>
+				<h2>Explanation of the different types of regimes</h2>
+					<p>The variable identifies the political regime of a country using the Regimes of the World classification by political scientists Anna L&uuml;hrmann, Marcus Tannenberg and Staffan Lindberg. It distinguishes between closed autocracies (score 0), electoral autocracies (score 1), electoral democracies (score 2), and liberal democracies (score 3).<br /><br />In <strong>closed autocracies</strong>, citizens do not have the right to either choose the chief executive of the government or the legislature through multi-party elections.<br /><br />In <strong>electoral autocracies</strong>, citizens have the right to choose the chief executive and the legislature through multi-party elections; but they lack some freedoms, such as the freedoms of association or expression, that make the elections meaningful, free, and fair.<br /><br />In <strong>electoral democracies</strong>, citizens have the right to participate in meaningful, free and fair, and multi-party elections.<br /><br />In <strong>liberal democracies</strong>, citizens have further individual and minority rights, are equal before the law, and the actions of the executive are constrained by the legislative and the courts.</p>
+				</div>
+
+
+			<div>
+				<p>The data collected in this dashboard are taken from the <a href="ourworldindata.org">ourworldindata.org</a> site.</p>
+				<ul>
+				<li><a href="https://ourworldindata.org/democratic-rights">democratic rights</a></li>
+				<li><a href="https://ourworldindata.org/clean-water-sanitation">Clean water and sanitation</a></li>
+				</ul>
+			</div>
         </article>
     </section>
+	
+	               <div style="visibility: hidden" style="flex-basis:100%">
+					<div id="observablehq-politicalLegend-d781daf5"></div>
+                    <div id="observablehq-political_regime_chart-d781daf5" ></div>
+                </div>
+
+
+                <div  style="visibility: hidden" tyle="flex-basis:100%">
+					<div id="observablehq-waterLegend-d781daf5"></div>
+                    <div id="observablehq-political_water_chart-d781daf5"></div>
+                </div>
+
+	
+
+
+
+
+
+
+
+
+
+
 
     <footer>
         <p>Università di Torino - Dipartimento di Informatica. Analisi e visualizzazione delle reti complesse 2021/2022,
@@ -53,3 +104,8 @@
 </body>
 
 </html>
+
+
+
+
+
