@@ -73,8 +73,9 @@ new Runtime().module(define, name => {
             </div>
             <div style="display: flex;">
                 <div style="flex-basis:20%">
-                    <div id="observablehq-viewof-state-d781daf5">
-					 <p>The red line represents the average among all states relative to access to basic drinking water</P>
+                    <div id="observablehq-viewof-state-d781daf5"></div>
+					<div>
+						<p>The red line represents the average among all states relative to access to basic drinking water</P>
 					</div>
 					
                 </div>
