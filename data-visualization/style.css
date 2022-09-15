@@ -9,11 +9,13 @@
 
         /* Style the header */
         header {
-            background-color: blue;
+            background-color: #81bded;
             padding: 10px;
             text-align: center;
             font-size: 25px;
             color: white;
+			border-radius: 5px;
+			margin: 5px;
         }
 
         /* Container for flexboxes */
@@ -28,7 +30,9 @@
             -ms-flex: 1;
             flex: 1;
             background: aqua;
-            padding: 20px;
+            padding: 15px;
+			border-radius: 5px;
+			margin: 5px;
         }
 
         /* Style the list inside the menu */
@@ -49,10 +53,12 @@
 
         /* Style the footer */
         footer {
-            background-color: #777;
+            background-color: #81bded;
             padding: 10px;
             text-align: center;
             color: white;
+			border-radius: 5px;
+			margin: 5px;
         }
 
         /* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
@@ -60,6 +66,7 @@
             section {
                 -webkit-flex-direction: column;
                 flex-direction: column;
+
             }
         }
     </style>
