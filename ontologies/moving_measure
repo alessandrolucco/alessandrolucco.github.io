@@ -1,0 +1,2383 @@
+[ {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "3"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasuredData"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#collect"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#EMFLevel"
+    }, {
+      "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Speed"
+    }, {
+      "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#VideoQuality"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#haveDataCollectedWith"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PowerMeter"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#haveDataCollectedWith"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#BasebandAnalizer"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#EMFLevel"
+    }, {
+      "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Speed"
+    }, {
+      "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#VideoQuality"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#p12345"
+    }, {
+      "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#p56789"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#p529981"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#DAB-Car"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#5GBC-Car"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#5GBC-Motorola"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#5GBC-Xiaomi"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20240614-P01"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20240614-P02"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20241118-P25"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20241118-P26"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250317-P01"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250319-P02"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250616-P25"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250616-P26"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20240614"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20241118"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250317"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250319"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250616"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr1"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr2"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P01"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P02"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P25"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P26"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Axiom" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A collection is an entity that provides a structure to some constituents, which are themselves entities. These constituents are said to be member of the collections."
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedProperty" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#range"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedSource" : [ {
+    "@id" : "http://www.w3.org/ns/prov#hadMember"
+  } ],
+  "http://www.w3.org/2002/07/owl#annotatedTarget" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/ns/prov#dm" : [ {
+    "@value" : "http://www.w3.org/TR/2013/REC-prov-dm-20130430/#term-collection"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.w3.org/ns/prov#Agent"
+    }, {
+      "@id" : "http://www.w3.org/ns/prov#Role"
+    } ]
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#EMFLevel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasuredData"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Livello di campo elettromagnetico, è correlato alla potenza del segnale ricevuto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "EMFLevel"
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#MotorolaRazor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#UserEquipment"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Dispositivo mobile marca Motorola"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MotorolaRazor"
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#NRQ6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#equipmentID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "548976"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PowerMeter"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Bolometro NRQ6 - Apparato per misurare la potenza del segnale che espone i parametri misurati via rete"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "NRQ6"
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Speed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasuredData"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Tipo di dato legato alla velocità del mezzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Speed"
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#UserEquipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa sottoclasse raggruppa i dispositivi mobili, ad esempio gli smartphone. Spesso se si vuole ad esempio conoscere la copertura di un segnale 5G è conveniente usare un dispositivo uguale a quello che usarebbero gli utenti ma con la possibilità di effettuare log."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "UserEquipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#VideoQuality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasuredData"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Tipo di dato legato alla qualità del video trasportato all'interno del segnale in esame"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VideoQuality"
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Xiaomi13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#UserEquipment"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Smartphone Xiaomi 13 con possibilità di ricevere il segnale 5GBroadcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Xiaomi13"
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#p12345",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#employeeIn" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Mcompany"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#userID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "12345"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "una persona di esempio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Andrea"
+  } ],
+  "http://www.w3.org/ns/prov#hadRole" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#drv1"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Andrea"
+  } ]
+}, {
+  "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#p56789",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#employeeIn" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Mcompany"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#userID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "56789"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Giovanni"
+  } ],
+  "http://www.w3.org/ns/prov#hadRole" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr2"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Giovanni"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/elements/1.1/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@value" : "Alessandro Lucco-Castello"
+  } ],
+  "http://purl.org/dc/elements/1.1/date" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-09-03T12:00:00"
+  } ],
+  "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "it",
+    "@value" : "Ontologia per la descrizione di misure in cui i dati vengono acquisiti in movimento associando ad ogni punto di misura le coordinate geografiche"
+  } ],
+  "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "it",
+    "@value" : "Misure in movimento"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "mm"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://www.alessandrolucco.it/ontologies/moving_measure#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Ontologia per descrivere il dominio legato alle misure in movimento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "moving_measure"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#5GBC-Car",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheAreaOf" : [ {
+    "@id" : "https://www.geonames.org/3165523"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#typeOfSignal" : [ {
+    "@value" : "5GBroadcast"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasureCampaign"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Collection"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "5GBC-Car"
+  }, {
+    "@language" : "it",
+    "@value" : "Campagna di misura per testare la ricezione del servizio 5GBroadcast in automobile"
+  } ],
+  "http://www.w3.org/ns/prov#hadMember" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250317-P01"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250319-P02"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#5GBC-Motorola",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheAreaOf" : [ {
+    "@id" : "https://www.geonames.org/3165523"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#typeOfSignal" : [ {
+    "@value" : "5GBroadcast"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasureCampaign"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Collection"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Campagna di misure effettuate per testare dei dispositivi mobili della marca Motorola per la ricezione del segnale 5GBroadcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "5GBC-Motorola"
+  } ],
+  "http://www.w3.org/ns/prov#hadMember" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250616-P25"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250616-P26"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#5GBC-Xiaomi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheAreaOf" : [ {
+    "@id" : "https://www.geonames.org/3165523"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#typeOfSignal" : [ {
+    "@value" : "5GBroadcast"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasureCampaign"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Collection"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Campagna di misure effettuate per testare dei dispositivi mobili della marca Xiaomi per la ricezione del segnale 5GBroadcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "5GBC-Xiaomi"
+  } ],
+  "http://www.w3.org/ns/prov#hadMember" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20241118-P25"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20241118-P26"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#ALCMeter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#SoftwareAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Automatic Level Control - Software per la registrazione automatica di misure legate alla posizione GPS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ALCMeter"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#AZ123BX",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#TransportMean"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Automezzo di esempio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "AZ123BX"
+  } ],
+  "http://www.w3.org/2002/07/owl#differentFrom" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#OnFoot"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Area",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Gli individui di questa classe identificano l'area più piccola interessata dal percorso della singola misura. Ad esempio la città se tutta all'interno dell'area urbana o la provincia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Area"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "https://w3id.org/italia/onto/CLV/AdminUnitComponent"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#BasebandAnalizer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa sottoclasse raggruppa gli strumenti che analizzano il segnale una volta demodulato, quindi ad esempio strumenti in grado di analizzare bitrate ed errori in in flusso video"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BasebandAnalizer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#BridgetechProbe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#BasebandAnalizer"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Analizzatore per i segnali broadcast"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BridgetechProbe"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#DAB-Car",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheAreaOf" : [ {
+    "@id" : "https://www.geonames.org/3165523"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#typeOfSignal" : [ {
+    "@value" : "DAB"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasureCampaign"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Collection"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "campagna di misure per testare la ricezione della radio digitale in macchina"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DAB-Car"
+  } ],
+  "http://www.w3.org/ns/prov#hadMember" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20240614-P01"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20240614-P02"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#DetailedActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Classe che contiene le attività di misura che hanno log di almeno tre dati diversi (es potenza del segnale, bitrate del segnale, indice qualità del video)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "DetailedActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Driver",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Classe che raccoglie i ruoli di chi guida il mezzo di misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Driver"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La classe Equipment identifica la strumentazione di misura usata, i sui individui sono identificati con il modello dell'apparato e eventualmente della matricola aziendale."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Equipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20240614-P01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "24.03"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P01"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20240614"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "csv/01-Cavalli_Cavalli_24-06-14-15-56-53.csv"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.77"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PowerMeasure"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#QualityMeasure"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misura effettuata nel 2024 per lo standard DAB (Televisione digitale terrestre) sul percorso 01"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M20240614-P01"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-06-14T15:05:00"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-06-15T14:35:00"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20240614-P02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "26"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P02"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20240614"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "csv/02-GiroOGR_24-06-14-14-20-32_p.csv"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2.78"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PowerMeasure"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#QualityMeasure"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misura effettuata nel 2024 per lo standard DAB (Televisione digitale terrestre) sul percorso 02"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M20240614-P02"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-06-14T15:20:00"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-06-14T15:10:00"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20241118-P25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "6.7"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P25"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20241118"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "../csv/25-Cavalli-PortaNuova_24-11-18-09-35-49.csv"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.49"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misura effettuata nel 2024 per lo standard 5GBC (ricezione broadcast su dispositivo mobile) sul percorso 25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M20241118-P25"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-11-18T08:51:00"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-11-18T08:36:00"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20241118-P26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "8.6"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P26"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20241118"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "/csv/26-PortaNuova-SanMaurizio_24-11-18-09-53-45.csv"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.7"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misura effettuata nel 2024 per lo standard 5GBC (ricezione broadcast su dispositivo mobile) sul percorso 26"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M20241118-P26"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-11-18T09:30:00"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2024-11-18T08:53:00"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250317-P01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "25.03"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P01"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250317"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "/csv/01-Cavalli_Cavalli_25-03-17-15-56-53_p.csv"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.77"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PowerMeasure"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#QualityMeasure"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misura effettuata nel 2025 per lo standard 5GBC in automobile sul percorso 01"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M20250317-P01"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-03-17T15:15:00"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-03-17T14:56:00"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250319-P02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "26.09"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P02"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250319"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "/csv/02-GiroOGR_25-03-19-14-20-32_p.csv"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "2.78"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PowerMeasure"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#QualityMeasure"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misura effettuata nel 2025 per lo standard 5GBC in automobile sul percorso 01"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M20250319-P02"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-03-19T13:29:33"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-03-19T13:20:30"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250616-P25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.8"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P25"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250616"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "../csv/m25-Cavalli-PortaNuova_25-06-16-14-09-45.csv"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.66"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misura effettuata nel 2025 per lo standard 5GBC (ricezione broadcast su dispositivo mobile) sul percorso 25"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M20250616-P25"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-06-16T12:29:00"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-06-16T12:11:00"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#M20250616-P26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "5.9"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P26"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250616"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "../csv/m26-PortaNuova-SanMaurizio_25-06-16-14-30-17.csv"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "3.22"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misura effettuata nel 2025 per lo standard 5GBC (ricezione broadcast su dispositivo mobile) sul percorso 26"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "M20250616-P26"
+  } ],
+  "http://www.w3.org/ns/prov#endedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-06-16T13:08:00"
+  } ],
+  "http://www.w3.org/ns/prov#startedAtTime" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2025-06-16T12:31:00"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20240614",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#collect" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#EMFLevel"
+  }, {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Speed"
+  }, {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#VideoQuality"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#DetailedActivity"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Attività di misura effettuata il 14/06/2024"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MA20240614"
+  } ],
+  "http://www.w3.org/ns/prov#used" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#NRQ6"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#ALCMeter"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#AZ123BX"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#BridgetechProbe"
+  } ],
+  "http://www.w3.org/ns/prov#wasAssociatedWith" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr1"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#drv1"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20241118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#collect" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Speed"
+  }, {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#VideoQuality"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Attività di misura effettuata il 18/11/2024"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MA20241118"
+  } ],
+  "http://www.w3.org/ns/prov#used" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Xiaomi13"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#OnFoot"
+  } ],
+  "http://www.w3.org/ns/prov#wasAssociatedWith" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr2"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250317",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#collect" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#EMFLevel"
+  }, {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Speed"
+  }, {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#VideoQuality"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#DetailedActivity"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Attivitò di misura effettuata il 17/03/2025"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MA20250317"
+  } ],
+  "http://www.w3.org/ns/prov#used" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#NRQ6"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#AZ123BX"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#BridgetechProbe"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250319",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#collect" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#EMFLevel"
+  }, {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Speed"
+  }, {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#VideoQuality"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#DetailedActivity"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Attivitò di misura effettuata il 19/03/2025"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MA20250319"
+  } ],
+  "http://www.w3.org/ns/prov#used" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#NRQ6"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#AZ123BX"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#BridgetechProbe"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MA20250616",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#collect" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#Speed"
+  }, {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#VideoQuality"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Attività di misura effettuata il  16/06/2025"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MA20250616"
+  } ],
+  "http://www.w3.org/ns/prov#used" : [ {
+    "@id" : "http://http://www.alessandrolucco.it/ontologies/moving_measure#MotorolaRazor"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#OnFoot"
+  } ],
+  "http://www.w3.org/ns/prov#wasAssociatedWith" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr3"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Mcompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Organization"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Un'azienda di misure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "MCompany"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa classe identifica l'elemento centrale dell'ontologia: la singola misura, intesa per quest'applicazione come insieme di dati presi lungo un percorso con una posizione gps associata a ogni insieme di dati. Ad ogni individuo di tipo \"Measure\" è associato un percorso GPS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasureCampaign",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Una campagna di misure è l'unione di tutte le misure sui differenti percorsi che fanno riferimento a una stessa tematica."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MeasureCampaign"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Collection"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasuredData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "La classe MeasuredData identifica il tipo di dati misurati, come esercizio questa classe è definita come enumerata e comprende:\n- dati di misura di intensità di campo Elettromangetico: EMFLevel, sono derivati a partire dalla potenza misurata e dall'antenna usata\n- Velocità \n- Video Quality che è un numero intero da 0 e 2 dove 0 indica un video non usufruibile dall'utente e 2 un video privo di errori"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MeasuredData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid13"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Identifica le attività di misura, produce una o più entità \"Measure\" seguendo i relativi percorsi GPS. A un individuo di tipo \"MeasurementAct\" possono essere associati tramite le relative proprietà:\n- uno o più operatori (attraverso il ruolo Operator), \n- il mezzo usato\n- il conduttore del mezzo (attraverso il ruolo Driver),\n- le attrezzature usate (Equipment), \n- i dati misurati (Data) \n- il software usato (SoftwareAgent)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "MeasurementActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#VehicleMeasure"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#OnFoot",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#TransportMean"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Indica le misure che vengono effettuate a piedi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "OnFoot"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Operator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Classe che raccoglie i ruoli di chi si occupa di eseguire la misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "operator"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Operator"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Ruolo di operatore legato a una certa attività di misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Opr1"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Operator"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Ruolo di operatore legato a una certa attività di misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Opr2"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Operator"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Ruolo di operatore legato a una certa attività di misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Opr3"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#gpsFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "../gps/p01.kmz"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PathGPS"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Percorso n 01 lungo il passante ferroviario"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "P01"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#gpsFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "../gps/p02.kmz"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PathGPS"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Percorso n 02 attorno alle OGR"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "P02"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#gpsFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "../gps/p25.kmz"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PathGPS"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Percorso n 25 su Torino da via Cavalli a Porta Nuova"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "P25"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#P26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#gpsFilePath" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "../gps/p26.kmz"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PathGPS"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Percorso n 26 su Torino da Porta Nuova a c.so San Maurizio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "P26"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PathGPS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Clase che raccoglie tutti i percorsi con coordinate geografiche studiati in precedenza e che vengono poi ripercorsi durante la misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PathGPS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PedestrianMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misure che testano la ricezione del segnale con dispositivi mobili e l'operatore che si muove a piedi (ad esempio in campo urbano). In questo caso viene riconosciuta automaticamente dalla velocità media di spostamento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PedestrianMeasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PowerMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misure che effettuano il log della potenza del segnale ricevuto."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PowerMeasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid17"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PowerMeter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Questa sottoclasse raggruppa gli strumenti che analizzano la potenza del segnale radio ricevuto"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "PowerMeter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#QualityMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misure che effettuano il log della qualità del segnale ricevuto (il tipo di dato dipende dal tipo di segnale)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "QualityMeasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#TransportMean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Identifica quale mezzo è stato usato per la misura, ad esempio se in macchina, in bici o a piedi"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TransportMean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@value" : "https://dbpedia.org/ontology/MeanOfTransportation"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#VehicleMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Misure che prevedono la ricezione del segnale da un antenna posta su tetto del mezzo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "VehicleMeasure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#avgSpeed",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Contiene la velocità massima raggiunta durante una singola misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "avgSpeed"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#collect",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Una proprietà più specifica per indicare il tipo di dati raccolti.\nOgni attività di misura deve avere almeno un tipo di dati"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "collect"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasuredData"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#drv1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#userID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "4598796"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Driver"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "ruolo di guidatore"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "drv1"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Andrea"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#employeeIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Identifica la relazione tra una persona e l'organizzazione di cui fa parte"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "employeeIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Organization"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://xmlns.com/foaf/spec/#term_member"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#equipmentID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Usato per valorizzare la matricola della strumentazione usata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "equipmentID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#followGPSPath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Serve per identificare se la misura è stata fatta a partire da un pergorso GPS già deciso in precedenza"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "followGPSPath"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PathGPS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#gpsFilePath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "percorso del file che contiene il tracciato gps pensato prima da seguire durante la misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#PathGPS"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gpsFilePath"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#haveDataAbout",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Propery chain per legare il tipo di dato registrato durante l'attività di misura all'entità misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "haveDataAbout"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasuredData"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#collect"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#haveDataCollectedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Propery chain per legare il tipo di \"equipment\" usato durante l'attività di misura all'entità misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "haveDataCollectedWith"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Equipment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf"
+    }, {
+      "@id" : "http://www.w3.org/ns/prov#used"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#inTheAreaOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Lega un entità misura a un area geografica"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasureCampaign"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "inTheAreaOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Area"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Proprietà più specifica per indicare la relazione tra la misura è l'attività di misurazione. Si usa questa proprietà più specifica nel contesto dell'entità \"misura\" per dichiararla funzionale, cioè ogni file di misura può essere stato generato durante una sola attività di misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "inTheContextOf"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#produce"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#measureFilePath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "percorso del file che contiene il file con i risultati della misura misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "measureFilePath"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#anyURI"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#measureSupervisor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Property chain per collegare la misura a chi è stato operatore durante l'attività di miura correlata"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "measureSupervisor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#wasAttributedTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyChainAxiom" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#inTheContextOf"
+    }, {
+      "@id" : "http://www.w3.org/ns/prov#wasAssociatedWith"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#roleAssignedTo"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#p529981",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#employeeIn" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Mcompany"
+  } ],
+  "http://www.alessandrolucco.it/ontologies/moving_measure#userID" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "529981"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "una persona di esempio"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Alessandro"
+  } ],
+  "http://www.w3.org/ns/prov#hadRole" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr1"
+  }, {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Opr3"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Alessandro"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#produce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Proprietà usata per indicare che l'attività di misura produce una misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#MeasurementActivity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "produce"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#roleAssignedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "proprietà inversa di hadRole"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "roleAssignedTo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#hadRole"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#totalDistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Contiene la distanza coperta durante una singola misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "totalDistance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#typeOfSignal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Proprietà per indicare il tipo di segnale misurato. Se possibile contiene il rifetimento allo standard"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "typeOfSignal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#userID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Usato per l'identificativo delle persone che operano in  una misura (conduttore e operatore)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "userID"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2002/07/owl#disjointUnionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Driver"
+    }, {
+      "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Operator"
+    } ]
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#SymmetricProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty", "http://www.w3.org/2002/07/owl#ReflexiveProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Activity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Un'attività è qualcosa che si verifica in un periodo di tempo e agisce su o con entità; può includere il consumo, l'elaborazione, la trasformazione, la modifica, lo spostamento, l'uso o la generazione di entità."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "An activity is something that occurs over a period of time and acts upon or with entities; it may include consuming, processing, transforming, modifying, relocating, using, or generating entities."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Agent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Un agente è qualcosa che ha una qualche forma di responsabilità per un'attività che si sta svolgendo, per l'esistenza di un'entità o per l'attività di un altro agente."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity. "
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Collection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Collection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "A collection is an entity that provides a structure to some constituents, which are themselves entities. These constituents are said to be member of the collections."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Entity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Un'entità è una cosa fisica, digitale, concettuale o di altro tipo con alcuni aspetti fissi; le entità possono essere reali o immaginarie."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "An entity is a physical, digital, conceptual, or other kind of thing with some fixed aspects; entities may be real or imaginary."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Nel contesto di questa ontologia indica l'organizzazione di cui fanno parte gli individui inseriti nella classe \"Person\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Organization"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "http://xmlns.com/foaf/spec/#term_Organization"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "it",
+    "@value" : "An organization is a social or legal institution such as a company, society, etc."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Nel contesto di questa ontologia comprende le persone coinvolte nelle misure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#exactMatch" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "@value" : "foaf:person"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#Role",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "In questa ontologia la classe è usata per descrive il ruolo che le persone hanno durante un'attività di misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "@id" : "http://www.w3.org/ns/prov#hadRole"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "A role is the function of an entity or agent with respect to an activity, in the context of a usage, generation, invalidation, association, start, and end."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#SoftwareAgent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "In questa ontologia identifica i software usati per ma misura"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "SoftwareAgent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "A software agent is running software."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#category",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#component",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#dm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#editorialNote",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#endedAtTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Tempo in cui un'attività o una misura finisce"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "endedAtTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#hadMember",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "indica il collegamento tra una colleione e le entità che appartengono a quella collezione. In questo contesto usata per legare la campagna di misure con le misure che la compongono"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Collection"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hadMember"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#hadRole",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Indica il ruolo che ha una persona (ad esempio nell'ambito di un'attività)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hadRole"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/ns/prov#sharesDefinitionWith" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#qualifiedForm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#sharesDefinitionWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#startedAtTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Tempo in cui l'attività o la misura sono finiti"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Measure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "startedAtTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/ns/prov#category" : [ {
+    "@value" : "starting-point"
+  } ],
+  "http://www.w3.org/ns/prov#component" : [ {
+    "@value" : "entities-activities"
+  } ],
+  "http://www.w3.org/ns/prov#editorialNote" : [ {
+    "@language" : "en",
+    "@value" : "It is the intent that the property chain holds: (prov:qualifiedStart o prov:atTime) rdfs:subPropertyOf prov:startedAtTime."
+  } ],
+  "http://www.w3.org/ns/prov#qualifiedForm" : [ {
+    "@id" : "http://www.w3.org/ns/prov#atTime"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#used",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Lega le Entità che all'Attività che le usa nel suo compimento"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "used"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasAssociatedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "usata per indicare l'associazione tra l'attività e l'agente, o anche tra il l'attività e un certo ruolo ricorperto da un agente"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://www.w3.org/ns/prov#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wasAssociatedWith"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasAttributedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wasAttributedTo"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Agent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/ns/prov#definition" : [ {
+    "@language" : "en",
+    "@value" : "Attribution is the ascribing of an entity to an agent."
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Indica il processo di derivare un entità da un'altra senza passare da un'attività"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://www.w3.org/ns/prov#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wasDerivedFrom"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/ns/prov#wasGeneratedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Specifica che un'entità è generata a partire da un'attività"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Entity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://www.w3.org/ns/prov-o#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "wasGeneratedBy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Activity"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "it",
+    "@value" : "Nome completo della persona"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/ns/prov#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "https://www.geonames.org/3165523",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.alessandrolucco.it/ontologies/moving_measure#Area"
+  }, {
+    "@id" : "http://www.w3.org/ns/prov#Role"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "it",
+    "@value" : "Città di Torino"
+  }, {
+    "@value" : "Torino"
+  } ]
+} ]
